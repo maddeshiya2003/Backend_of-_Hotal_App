@@ -6,6 +6,7 @@ require('dotenv').config();
 const mongoURL = process.env.DB_URL;
 
 
+// mongoose.connect(mongoUrlLocal)
 mongoose.connect(mongoURL)
 
 // ye line isliye use kr rhe hai kyuki ye mongodb server aur nodejs ka server ke bich connection stablish krta hai 
